@@ -36,7 +36,7 @@ void Automat() {
 			  case LED_RIGHT:
 				  
 				
-				    if( eKeyboardRead() == BUTTON_1) {
+				    if( eKeyboardRead() == BUTTON_1) {g
 					      eLedState = STOP;
 				    } else {
 					      LedStepRight();
@@ -45,7 +45,7 @@ void Automat() {
 			      break;
 			  }
 }
-
+//git test
 int main(){
 	
     LedInit();
